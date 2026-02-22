@@ -13,6 +13,11 @@ So a great passer with playmaker traits gets more pass cards, while a finisher g
 
 ## Run
 ```bash
+./run.sh
+```
+
+(Manual alternative)
+```bash
 javac -d out $(find src/main/java -name "*.java")
 java -cp out com.jleaguecardgame.Main
 ```
